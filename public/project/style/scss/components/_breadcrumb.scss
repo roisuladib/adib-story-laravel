@@ -1,0 +1,15 @@
+.store-breadcrumb { 
+   .my-breadcrumb {
+      a {
+         color: #979797;
+         font-weight: 300;
+         font-size: 14px;
+         margin-bottom: 0px;            
+      }
+      a.active {
+         font-weight: 500;
+         color : #0C0D36;
+      }
+   }     
+   margin-bottom: 30px;
+} 

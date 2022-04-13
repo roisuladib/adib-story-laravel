@@ -1,0 +1,52 @@
+.card {
+   background: #FEFEFE;
+   box-shadow: 0px 4px 15px #F1F1F8;
+   border-radius: 12px;
+   border: none;
+   text-decoration: none !important;
+   cursor: pointer;
+   &.my-card-hover {
+      &:hover {
+         background: linear-gradient(270deg, rgba(255, 113, 88, 0.32) 2%, rgba(255, 255, 255, 0) 100%);
+         color: #FC427B;
+      }
+   }
+   .card-body {
+      padding: 26px;
+      .title {
+         font-weight: normal;
+         font-size: 16px;
+      }
+      .sub {
+         font-weight: 600;
+         font-size: 32px;
+      }
+   }
+}
+.card-list {
+   margin-bottom: 16px;
+   .card-body {
+      padding: 12px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #0C0D36;
+      .row {
+         align-items: center;
+      }
+      .img-recent-produk {
+         border-radius: 6px;
+         height: 44px;
+         width: 44px;
+      }
+      .col-md-1 {
+         text-align: center;
+         .img-recent-trans {
+            font-size: 30px;
+            font-weight: 500;
+            &:hover {
+               color: #FC427B;
+            }
+         }
+      }
+   }
+}

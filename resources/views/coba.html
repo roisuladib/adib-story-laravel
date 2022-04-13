@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Load More Button Using HTML CSS & jQuery - Pure Coding</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="imgBox">
+                    <img src="1.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        Android 11: Here are the 8 best new features
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="2.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        PHP 8 Release on November 2020
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="3.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        macOS New Update
+                    </h2>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="imgBox">
+                    <img src="1.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        Android 11: Here are the 8 best new features
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="2.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        PHP 8 Release on November 2020
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="3.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        macOS New Update
+                    </h2>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="imgBox">
+                    <img src="1.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        Android 11: Here are the 8 best new features
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="2.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        PHP 8 Release on November 2020
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="3.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        macOS New Update
+                    </h2>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="imgBox">
+                    <img src="1.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        Android 11: Here are the 8 best new features
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="2.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        PHP 8 Release on November 2020
+                    </h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="imgBox">
+                    <img src="3.jpg" alt="News">
+                </div>
+                <div class="content">
+                    <h2 class="title">
+                        macOS New Update
+                    </h2>
+                </div>
+            </div>
+        </div>
+        
+        <button class="btn">Load More</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".col").slice(0, 1).show()
+        $(".btn").on("click", function(){
+            $(".col:hidden").slice(0, 1).slideDown()
+            if ($(".col:hidden").length == 0) {
+                $(".btn").fadeOut('slow')
+            }
+        })
+    </script>
+</body>
+</html>

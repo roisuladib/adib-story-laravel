@@ -1,0 +1,30 @@
+.section-dashboard-product {
+   .content {
+      margin-top: 21px;
+      .row {
+         .my-bt-pro {
+            margin-bottom: 32px;
+         }
+      }
+      .card-product {
+         .card-body {
+            padding: 12px;
+            .product-price {
+               color: #FC427B;
+               font-weight: 600;
+               font-size: 20px;                            
+            }
+            .product-title {
+               color: #0c0d36;
+               font-weight: 400;
+               font-size: 18px;                             
+            }
+            .product-category {
+               color: #c5c5c5; 
+               font-weight: 400;
+               font-size: 14px;
+            }
+         }
+      }
+   }
+}

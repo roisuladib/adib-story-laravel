@@ -1,0 +1,63 @@
+.store-auth {       
+   min-height: 100vh;
+   background-color: #f7faff; 
+   padding-top: 90px;     
+   padding-bottom: 90px;    
+   .sign-ilus {
+      border-radius: 0px 40px 0px 40px;
+   } 
+   .content-auth {            
+      .my-form-auth {
+         margin-top: 36px; 
+         background-color: #ffffff;
+         padding: 30px;         
+      }
+   }
+   img.sign-logo {
+      margin-left: -2px;
+      margin-bottom: 30px;
+   }
+   .title-signin {         
+      font-weight: 600;
+      font-size: 32px;  
+      margin-bottom: 0;                
+   }
+   .title-forgot-password {
+      margin-top: 20px;
+      font-weight: 300;
+      color: rgb(52,54,74);
+      font-size: 16px;
+      margin-bottom: 0; 
+   }
+   input {
+      margin-bottom: 16px !important;
+   }   
+   .text-link {
+      color: rgb(153,154,164) !important;
+      font-weight: 400;
+      font-size: 16px;
+   }
+   .buttom-sign {
+      margin-top: 30px;
+      .my-bt-pro {      
+         margin-bottom: 16px !important;      
+      }
+      .bt-auth {
+         display: block;
+         width: 100%;
+      }
+   }
+}
+
+.toas-av {
+   background: #27ae60 !important;
+   border-radius: 20px !important;
+}
+.toas-un {
+   background: #e74c3c !important;
+   border-radius: 20px !important;
+}
+#emailToas {
+   font-size: 16px;
+   font-weight: 700;
+}

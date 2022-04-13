@@ -1,0 +1,12 @@
+.my-modal {
+   h5 {
+      font-size: 22px;
+      font-weight: 400;
+      margin-bottom: 40px;
+   }
+   .my-bt-alt:focus {      
+      outline: 0;
+      -webkit-box-shadow: 0 0 0 0.2rem #dfdfdf !important;
+      box-shadow: 0 0 0 0.2rem #dfdfdf !important;
+   }
+}

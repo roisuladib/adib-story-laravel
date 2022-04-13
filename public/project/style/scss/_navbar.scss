@@ -1,0 +1,72 @@
+nav.navbar-store {
+   background-color: white !important;
+   // padding-top: 10px;
+   // padding-bottom: 10px;
+   // Belum ingklud bundle.scss
+   // @include media-breakpoint-down(md) {
+   //    background-color: #ffffff !important;
+   // }
+   a.navbar-brand {
+      img {
+         margin-left: -3px;
+         margin-bottom: -4px;
+      }
+      p.my-logo {
+         margin-bottom: -4px;
+         font-family: 'Merriweather', serif;
+         font-style: italic;
+         font-size: 30px;
+         font-weight: 900;
+         color: #5b49cf;
+      }          
+   }   
+   ul {
+      li.nav-item {  
+         a.nav-link {
+            // @include media-breakpoint-up(lg) {
+            //    margin-left: 10px !important;
+            //    margin-bottom: 10px !important;
+            // }
+            font-weight: 400 !important;
+            font-size: 16px;
+            color: #0C0D36 !important;
+         }       
+         a.nav-link:hover {
+            color: #FC427B !important;
+         }
+         a.active {
+            font-weight: 500 !important;
+            color: #FC427B !important;
+         }
+      }
+   }
+   a.my-bt-pro {
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }   
+
+   // Sudah Login
+   .cart-badge {
+      display: inline-block;
+      min-width: 2em;
+      padding: 0.3em;
+      border-radius: 50%;
+      font-size: 10px;
+      text-align: center;
+      background-color: #5b49cf;
+      color: #ffffff;
+      margin-left: -10px;
+   }
+   a {
+      .cart-mobile {
+         transition: all 0.2s ease-in-out; 
+         &:hover {
+            transform: scale(1.05);         
+         }
+      }
+   }
+}
+nav.navbar-fixed-top.scrolled {
+   background-color: #ffffff;
+   transition: background-color 200ms linear;
+}

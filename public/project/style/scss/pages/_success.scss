@@ -1,0 +1,28 @@
+.page-success{   
+   .store-success {
+      min-height: 30vh;
+      h3 {    
+         margin-top: 40px;
+         margin-bottom: 16px;    
+         font-weight: 500;
+         font-size: 32px;
+      }
+      p {
+         min-width: 300px !important;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 180%;
+         text-align: center;
+         color: #525252;
+         margin-bottom: 0px;
+      }
+      .btn-custom {
+         min-width: 250px;
+         margin-top: 60px;
+         margin-bottom: 16px;
+      }
+      .my-bt-alt {
+         min-width: 250px;
+      }
+   }
+}
